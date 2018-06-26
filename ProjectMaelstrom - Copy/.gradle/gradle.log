@@ -1,0 +1,88 @@
+****************************
+ Powered By MCP:             
+ http://modcoderpack.com/    
+ Searge, ProfMobius, Fesh0r, 
+ R4wk, ZeuX, IngisKahn, bspkrs
+ MCP Data version : unknown
+****************************
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar UP-TO-DATE
+:getVersionJson
+:extractUserDev UP-TO-DATE
+:extractNatives UP-TO-DATE
+:getAssetsIndex
+:getAssets
+:makeStart
+[ant:javac] warning: [options] bootstrap class path not set in conjunction with -source 1.6
+[ant:javac] 1 warning
+:runServer
+[19:56:08] [main/INFO] [GradleStart]: Extra: []
+[19:56:08] [main/INFO] [GradleStart]: Running with arguments: [--tweakClass, cpw.mods.fml.common.launcher.FMLServerTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:56:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
+[19:56:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLServerTweaker
+[19:56:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLServerTweaker
+[19:56:08] [main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[19:56:08] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_171, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_171\jre
+[19:56:08] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[19:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:56:08] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[19:56:08] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[19:56:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:56:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[19:56:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:56:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:56:09] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[19:56:10] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[19:56:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:56:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[19:56:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:56:11] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[19:56:11] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[19:56:11] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[19:56:14] [main/WARN] [FML]: =============================================================
+[19:56:14] [main/WARN] [FML]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[19:56:14] [main/WARN] [FML]: Offendor: net/minecraft/server/gui/MinecraftServerGui$1.windowClosing(Ljava/awt/event/WindowEvent;)V
+[19:56:14] [main/WARN] [FML]: Use FMLCommonHandler.exitJava instead
+[19:56:14] [main/WARN] [FML]: =============================================================
+[19:56:14] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[19:56:14] [Server thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[19:56:14] [Server thread/INFO] [FML]: MinecraftForge v10.13.4.1614 Initialized
+[19:56:15] [Server thread/INFO] [FML]: Replaced 183 ore recipies
+[19:56:15] [Server thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[19:56:15] [Server thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[19:56:15] [Server thread/INFO] [FML]: Searching C:\Users\Kira\IdeaProjects\ProjectMaelstrom\eclipse\mods for mods
+[19:56:24] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[19:56:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, examplemod] at CLIENT
+[19:56:24] [Server thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, examplemod] at SERVER
+[19:56:25] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[19:56:25] [Server thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[19:56:25] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:56:25] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:56:25] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:56:25] [Server thread/INFO] [FML]: Applying holder lookups
+[19:56:25] [Server thread/INFO] [FML]: Holder lookups applied
+[19:56:25] [Server thread/INFO] [FML]: Injecting itemstacks
+[19:56:25] [Server thread/INFO] [FML]: Itemstack injection complete
+[19:56:25] [Server thread/INFO]: Loading properties
+[19:56:25] [Server thread/WARN]: server.properties does not exist
+[19:56:25] [Server thread/INFO]: Generating new properties file
+[19:56:25] [Server thread/WARN]: Failed to load eula.txt
+[19:56:25] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[19:56:25] [Server thread/WARN] [FML]: Can't revert to frozen GameData state without freezing first.
+[19:56:25] [Server thread/INFO] [FML]: Applying holder lookups
+[19:56:25] [Server thread/INFO] [FML]: Holder lookups applied
+[19:56:25] [Server thread/INFO] [FML]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
+Java HotSpot(TM) 64-Bit Server VM warning: Using incremental CMS is deprecated and will likely be removed in a future release
+
+BUILD SUCCESSFUL
+
+Total time: 22.111 secs

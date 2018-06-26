@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Forge_api" target="1.6" />
+      <module name="Forge_main" target="1.6" />
+      <module name="Forge_test" target="1.6" />
+      <module name="ProjectMaelstrom_api" target="1.6" />
+      <module name="ProjectMaelstrom_main" target="1.6" />
+      <module name="ProjectMaelstrom_test" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
